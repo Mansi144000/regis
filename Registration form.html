@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .container {
+            background-color: grey;
+            width: 40%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 align="center"><b>Registration</h1>
+
+
+        <form action="welcome.php" method="POST">
+
+
+            <div class="form-group">
+                <input type="First Name" class="form-control" id="Last Name" placeholder="First Name" name="email">
+            </div>
+            <div class="form-group">
+                <input type="Last Name" class="form-control" id="Last Name" placeholder="Last Name" name="Last Name">
+            </div>
+
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Full Address" rows="3"></textarea>
+            </div>
+
+
+
+            <div class="form-group">
+                <label style="color: white;">City</label>
+                <select type="City" class="form-control" id="City" placeholder="City" name="City" >
+                    <option>Muzaffarnagar</option>
+                    <option>Ghaziabad</option>
+                    <option>Noida</option>
+                    <option>Jhansi</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="State" class="form-control" id="State" placeholder="State" name="State">
+            </div>
+
+            <div class="form-group">
+                <input type="Select Role" class="form-control" id="Select Role" placeholder="Select Role" name="Select Role">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+            <div class=" form-group ">
+                <input type="Confirm password" class="form-control" id="Confirm password" placeholder="Confirm password" name="Confirm password">
+            </div>
+
+
+
+
+
+            <button type="button" class="btn btn-primary center-block">Register<button>
+
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
